@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{ed7092de-6d8c-4fb9-ace5-04be235613c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utilities">
+      <UniqueIdentifier>{874d0d55-a2b2-406f-af99-1357c9d482dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UtilitiesFBX">
+      <UniqueIdentifier>{5d5c6a67-d27f-40e4-9103-fc5b307c2486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{a6c3ca92-c2da-42a4-872e-cc60e03f546a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Entities">
+      <UniqueIdentifier>{b78d02ba-f3d2-4959-8c78-ecd25aea2f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Assets">
+      <UniqueIdentifier>{320eca9e-db2a-4d4d-8fc8-fc49b20b1b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダーファイル\System">
+      <UniqueIdentifier>{9a3a5eb7-005e-4c23-9fbf-9c64a270cb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Utilities">
+      <UniqueIdentifier>{bc6cccff-1ece-4118-95e8-a9fd450d6040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\UtilitiesFBX">
+      <UniqueIdentifier>{cae3ad90-6acc-4674-a5d6-1ba7943b5bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\UI">
+      <UniqueIdentifier>{dfc34565-6bb3-43e2-a441-51992cbefb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Entities">
+      <UniqueIdentifier>{fe3945b0-34ea-4646-94b2-db37d89b3ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Assets">
+      <UniqueIdentifier>{5ed60395-f2b2-4d91-af4a-877c59885caf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ヘッダーファイル\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダーファイル\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>ヘッダーファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXanimation.h">
+      <Filter>ヘッダーファイル\UtilitiesFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXmodel.h">
+      <Filter>ヘッダーファイル\UtilitiesFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="fileSaveLoad.h">
+      <Filter>ヘッダーファイル\UtilitiesFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダーファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ヘッダーファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="write.h">
+      <Filter>ヘッダーファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダーファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダーファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダーファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダーファイル\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="write.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXanimation.cpp">
+      <Filter>ソース ファイル\UtilitiesFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXmodel.cpp">
+      <Filter>ソース ファイル\UtilitiesFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="fileSaveLoad.cpp">
+      <Filter>ソース ファイル\UtilitiesFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>ソース ファイル\Assets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
