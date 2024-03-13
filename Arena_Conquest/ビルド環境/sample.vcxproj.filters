@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Utilities">
+      <UniqueIdentifier>{7718803f-d01d-4af9-8fe7-d02935da4a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{2f0cffb9-54db-4b0c-ba48-f7dce853651e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Systems">
+      <UniqueIdentifier>{3fc33b49-fb61-45a3-85a2-a82824b0a2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Entities">
+      <UniqueIdentifier>{8c891872-d94d-4ae5-a7cc-6fbe44f593ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Assets">
+      <UniqueIdentifier>{52a5f0bc-7456-4e50-87a9-082ed71f0cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Entities\enemies">
+      <UniqueIdentifier>{7874e036-cbcf-45bd-8b67-6e03d27886f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Entities\players">
+      <UniqueIdentifier>{174c6efb-2df1-4bd1-b886-69dbebc5c5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI\Gameplay">
+      <UniqueIdentifier>{7ae391c1-e1d6-44ab-9809-fb2ff42fd755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI\ResultScreens">
+      <UniqueIdentifier>{5890a36e-41ac-4dc7-a009-495f2c57bb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utilities">
+      <UniqueIdentifier>{49632ad9-4be1-47e2-9ed7-f2473f8547fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI">
+      <UniqueIdentifier>{e1fccb33-8410-4add-bec4-f0f25743e037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI\Menu">
+      <UniqueIdentifier>{85b7f819-f3fb-4c25-95d6-d117e1ae036e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI\Gameplay">
+      <UniqueIdentifier>{b55904d1-41c5-44dc-be47-67af194ce79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI\ResultScreens">
+      <UniqueIdentifier>{d4e917ed-4c82-4dc2-a87c-5c8774135175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI\Menu">
+      <UniqueIdentifier>{a45d4520-d5f0-4760-ae37-086d6057c30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Systems">
+      <UniqueIdentifier>{6a58a56a-977b-4653-9142-996c76c6f80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Entities">
+      <UniqueIdentifier>{83418808-b7eb-4ceb-91bb-2e8c3d9a1e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Entities\enemies">
+      <UniqueIdentifier>{2500f967-9304-4914-91a9-b5f6a2d9b543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Entities\players">
+      <UniqueIdentifier>{2e374c4c-c2ff-4cb4-94d2-072ed3f75425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Assets">
+      <UniqueIdentifier>{5ae78088-9fa7-4e46-8109-40e1e2de97df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="spawnController.h">
+      <Filter>ヘッダー ファイル\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="screenGameOver.h">
+      <Filter>ヘッダー ファイル\UI\ResultScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\UI\ResultScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="playerUI.h">
+      <Filter>ヘッダー ファイル\UI\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="pauseMenu.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\Entities\players</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyBall.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyBoss.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyFlyBounce.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyFlyBulletOne.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyKnight.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyPatrol.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemySlimeKing.h">
+      <Filter>ヘッダー ファイル\Entities\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="interactiveObject.h">
+      <Filter>ヘッダー ファイル\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="platforms.h">
+      <Filter>ヘッダー ファイル\Assets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="interactiveObject.cpp">
+      <Filter>ソース ファイル\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="platforms.cpp">
+      <Filter>ソース ファイル\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="spawnController.cpp">
+      <Filter>ソース ファイル\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyBall.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyBoss.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyFlyBounce.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyFlyBulletOne.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyKnight.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyPatrol.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemySlimeKing.cpp">
+      <Filter>ソース ファイル\Entities\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\Entities\players</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="options.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="pauseMenu.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="playerUI.cpp">
+      <Filter>ソース ファイル\UI\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\UI\ResultScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="screenGameOver.cpp">
+      <Filter>ソース ファイル\UI\ResultScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
